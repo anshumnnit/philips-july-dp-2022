@@ -45,5 +45,5 @@ bool BatteryChargeRate(){
 }
 
 bool batteryIsOk(float temperature, float soc, float chargeRate){
-  return (BatteryTemp() or BatterSOCCharge() or BatteryChargeRate());
+  return (BatteryTemp() and BatterSOCCharge() and BatteryChargeRate());
 }
