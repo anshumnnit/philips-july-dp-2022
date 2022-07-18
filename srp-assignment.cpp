@@ -16,3 +16,4 @@ bool batteryIsOk(float temperature, float soc, float chargeRate) {
 Observations:
 Code voilates Single responsibility principle.
 Responsibility of temp, SOCCharge and chargeRate can be divided into 3 functions
+Testing of all 3 parameters is difficult.. we need to check multiple of test-case for each functionality.. Resulting in low confidence.
