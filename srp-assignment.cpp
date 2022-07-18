@@ -20,7 +20,7 @@ bool batteryIsOk(float temperature, float soc, float chargeRate) {
 
 REFACTORED CODE:
 
-bool BatteryTemp(){
+bool BatteryTemp(float temperature){
 	if(temperature < 0 || temperature > 45) {
 		cout << "Temperature out of range!\n";
 		return false;
@@ -28,7 +28,7 @@ bool BatteryTemp(){
 	return true;
 }
 
-bool BatterSOCCharge(){
+bool BatterySOCCharge(float soc){
 	if(soc < 20 || soc > 80) {
     cout << "State of Charge out of range!\n";
     return false;
@@ -36,7 +36,7 @@ bool BatterSOCCharge(){
 	return true;
 }
 
-bool BatteryChargeRate(){
+bool BatteryChargeRate(float chargeRate){
 	if(chargeRate > 0.8) {
     cout << "Charge Rate out of range!\n";
     return false;
