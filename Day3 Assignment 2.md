@@ -38,5 +38,6 @@ public class OnlineCart
 Observation:
 SRP voilated.
 IProcessPayment interface that will use Strategy to do different payments.
-![image](https://user-images.githubusercontent.com/109504319/179927106-fef1d765-199d-45d5-84b8-aa8bba338917.png)
+![image](https://user-images.githubusercontent.com/109504319/179927625-9c2ea974-1e86-414d-9782-b662139e1276.png)
+
 
